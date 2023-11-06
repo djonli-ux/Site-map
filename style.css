@@ -1,0 +1,13 @@
+.header {
+    margin-left: 35px;
+}
+
+.arrow-list {
+    list-style: none;
+}
+
+.arrow-list > li::before {
+    content: "➡"; 
+    margin-right: 5px;
+}
+
